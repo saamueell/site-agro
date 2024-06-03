@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complexo Industrial da Soja</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Complexo Industrial da Soja</h1>
+        <nav>
+            <ul>
+                <li><a href="#overview">Visão Geral</a></li>
+                <li><a href="#production">Produção</a></li>
+                <li><a href="#processing">Processamento</a></li>
+                <li><a href="#exports">Exportações</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="overview">
+            <h2>Visão Geral</h2>
+            <p>O complexo industrial da soja é um dos principais setores da economia agrícola global...</p>
+        </section>
+
+        <section id="production">
+            <h2>Produção</h2>
+            <p>A produção de soja começa com a plantação e o cultivo das sementes...</p>
+        </section>
+
+        <section id="processing">
+            <h2>Processamento</h2>
+            <p>Após a colheita, a soja passa por diversos processos industriais...</p>
+        </section>
+
+        <section id="exports">
+            <h2>Exportações</h2>
+            <p>A soja e seus derivados são exportados para diversos países ao redor do mundo...</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contato</h2>
+            <form>
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Complexo Industrial da Soja. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
